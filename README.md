@@ -4,10 +4,9 @@
 
 >The Razer Blade 15 is the newest laptop made by Razer. This post will outline the steps I took to install and configure Linux Mint on my Razer Blade 15.
 
-
 ## TL;DR
 
-Clone this repository and run the `auto-install.sh` script to download and configure my preferred helper tools and settings.
+Once you've installed Linux Mint, clone this repository and run the `auto-install.sh` script to download and configure my preferred helper tools and settings.
 
 ```
 sudo apt install git
@@ -18,11 +17,13 @@ bash auto-install.sh
 
 ## Introduction
 
-Every student at my university receives a laptop as part of their tuition. All students in Computer Science received the [Razer Blade 15,](https://www.razer.com/comparisons/blade-15) which is overall a good laptop with impressive performance but a shorter battery life than other laptops. It can get hot while gaming but it's not uncomfortable.
+Every student at my university receives a laptop as part of their tuition. All students in Computer Science received the [Razer Blade 15,](https://www.razer.com/comparisons/blade-15) which is overall a good laptop with impressive performance but a shorter battery life than other laptops. It can get hot while gaming but it's not uncomfortable. It works very well as desktop when you attach an external monitor, mouse, and keyboard.
 
 Naturally, I wanted to see how well the Blade could run Linux. I decided to go with [Linux Mint,](https://linuxmint.com/) my distro of choice for the last few years.
 
 Below are the steps to recreate my Linux Mint installation on my Razer Blade 15.
+
+This tutorial is a work in progress. Follow this tutorial and run the script(s) at your own risk. I take no responsibility for your computer or operating system.
 
 ## Step 0: Setup the Environment
 
@@ -118,7 +119,7 @@ You will need:
 
 - You have now successfully installed and updated Linux Mint. The following steps are my personal customization choices.
 
-- I created a script to do most of the following steps manually. I recommend trying it out. You can download and run it with the following commands:
+- I created a script to do most of the following steps automatically. I recommend trying it out. You can download and run it with the following commands:
 
 ```
 sudo apt install git
@@ -269,7 +270,7 @@ When asked if non-superusers should be able to capture packets, select `<Yes>`wi
 Add yourself to the `wireshark` group with:
 
 ```
-sudo adduser $(whoami) wireshark
+sudo adduser $USER wireshark
 ```
 
 - You will need to logout and log back in for Wireshark to work properly.
