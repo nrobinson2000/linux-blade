@@ -277,7 +277,7 @@ sudo adduser $USER wireshark
 
 ## Conclusion
 
-I hope this tutorial has helped you successfully install Linux Mint on your Razer Blade, making it arguably much more productive and pleasant than Windows. Feel free to customize further if you find it necessary. If you have any questions or concerns please feel free to email me: nrobinson2000@me.com
+I hope this tutorial has helped you successfully install Linux Mint on your Razer Blade, making it arguably much more productive and pleasant than using Windows. Feel free to customize further if you find it necessary. If you have any questions or concerns please feel free to email me: nrobinson2000@me.com
 
 ## Additional Programs
 
@@ -296,6 +296,6 @@ Here are some more programs that I use on a regular basis in no particular order
 
 ## Screenshot
 
-Here is a screenshot of my desktop to get a general idea of how my setting look.
+Here is a screenshot of my desktop to help you get a general idea of how my settings look.
 
 <center><img src="images/desktop2.png"><center>
