@@ -17,7 +17,7 @@ numix-icon-theme-circle adapta-gtk-theme docky conky wireshark*
 sudo adduser "$USER" wireshark
 
 # Install comfortable-swipe
-sudo apt-get install git libinput-tools libxdo-dev g++
+sudo apt-get -y install git libinput-tools libxdo-dev g++
 git clone https://github.com/Hikari9/comfortable-swipe.git --depth 1
 echo "$(cd comfortable-swipe && bash install)"
 sudo gpasswd -a "$USER" $(ls -l /dev/input/event* | awk '{print $4}' | head --line=1)
