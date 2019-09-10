@@ -4,7 +4,7 @@
 sudo add-apt-repository ppa:openrazer/stable
 sudo add-apt-repository ppa:polychromatic/stable
 sudo add-apt-repository ppa:numix/ppa
-sudo add-apt-repository ppa:tista/adaptax
+sudo add-apt-repository ppa:tista/adapta
 
 # Update package list
 sudo apt update
