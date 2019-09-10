@@ -205,7 +205,7 @@ sudo gpasswd -a $USER $(ls -l /dev/input/event* | awk '{print $4}' | head --line
 ```
 
 - If you'd like to use my configuration you can copy it from here:
-<https://gist.githubusercontent.com/nrobinson2000/66e4eee3149f3b73e50dec348e32ac76/raw/09cf2b4cb3dca28cb9732d3698dbb7b58fe91bd3/comfortable-swipe.conf>
+<https://raw.githubusercontent.com/nrobinson2000/linux-blade/master/config/comfortable-swipe.conf>
 
 - To open the configuration file you can run:
 
@@ -225,7 +225,7 @@ xed $(comfortable-swipe config)
 sudo apt install conky
 ```
 
-- Next, I suggest using my conky configuration. It will display the time, date, CPU and RAM usage, top processes, SSD usage, temperatures, and battery information. You can copy it from here: <https://gist.githubusercontent.com/nrobinson2000/1c44675eecb42896a2a1b119fbdccc31/raw/d2262c9df49f0c0ccbf5694399fce6f4282a82b4/.conkyrc>
+- Next, I suggest using my conky configuration. It will display the time, date, CPU and RAM usage, top processes, SSD usage, temperatures, and battery information. You can copy it from here: <https://raw.githubusercontent.com/nrobinson2000/linux-blade/master/config/conkyrc>
 
 - Create your conky configuration file with:
 
@@ -245,7 +245,7 @@ xed ~/.conkyrc
 
 ## Step 14: Install Eclipse
 
-- Eclipse is required for most Computer Science classes where we write Java code.
+- Eclipse is required for most Computer Science classes where we write Java code at my university.
 
 - Download the installer from <https://www.eclipse.org/downloads/>
 
@@ -259,7 +259,7 @@ xed ~/.conkyrc
 
 ## Step 15: Install Wireshark
 
-- Wireshark is required for the Network Programming class.
+- Wireshark is required for the Network Programming class at my university.
 
 ```
 sudo apt install wireshark*
@@ -274,3 +274,28 @@ sudo adduser $USER wireshark
 ```
 
 - You will need to logout and log back in for Wireshark to work properly.
+
+## Conclusion
+
+I hope this tutorial has helped you successfully install Linux Mint on your Razer Blade, making it arguably much more productive and pleasant than Windows. Feel free to customize further if you find it necessary. If you have any questions or concerns please feel free to email me: nrobinson2000@me.com
+
+## Additional Programs
+
+Here are some more programs that I use on a regular basis in no particular order:
+
+- [Particle Workbench](https://www.particle.io/workbench/)
+- [Mailspring](https://getmailspring.com/)
+- [Slack](https://slack.com/)
+- [Discord](https://discordapp.com/)
+- [GitKraken](https://www.gitkraken.com/)
+- [Saleae Logic](https://www.saleae.com/downloads/)
+- [Digilent Waveforms](https://store.digilentinc.com/waveforms-previously-waveforms-2015/)
+- [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/)
+- [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+- [Fritzing](https://fritzing.org/download/)
+
+## Screenshot
+
+Here is a screenshot of my desktop to get a general idea of how my setting look.
+
+<center><img src="images/desktop2.png"><center>
