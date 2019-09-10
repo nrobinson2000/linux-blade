@@ -1,12 +1,28 @@
-<img src="images/header.png">
+# How to Install Linux Mint on the Razer Blade 15 (WIP)
+
+<center><img src="images/header.png"></center>
 
 >The Razer Blade 15 is the newest laptop made by Razer. This post will outline the steps I took to install and configure Linux Mint on my Razer Blade 15.
+
+
+## TL;DR
+
+Clone this repository and run the `auto-install.sh` script to download and configure my preferred helper tools and settings.
+
+```
+sudo apt install git
+git clone https://github.com/nrobinson2000/linux-blade
+cd linux-blade
+bash auto-install.sh
+```
+
+## Introduction
 
 Every student at my university receives a laptop as part of their tuition. All students in Computer Science received the [Razer Blade 15,](https://www.razer.com/comparisons/blade-15) which is overall a good laptop with impressive performance but a shorter battery life than other laptops. It can get hot while gaming but it's not uncomfortable.
 
 Naturally, I wanted to see how well the Blade could run Linux. I decided to go with [Linux Mint,](https://linuxmint.com/) my distro of choice for the last few years.
 
->Below are the steps to recreate my Linux Mint installation on my Razer Blade 15.
+Below are the steps to recreate my Linux Mint installation on my Razer Blade 15.
 
 ## Step 0: Setup the Environment
 
@@ -22,15 +38,15 @@ You will need:
 
 - Use the Cinnamon 64-bit edition.
 
-- At the time of writing Linux Mint 19 "Tara" is the latest version.
+- At the time of writing Linux Mint 19.2 "Tina" is the latest version.
 
-- You can download it here: [https://linuxmint.com/edition.php?id=254](https://linuxmint.com/edition.php?id=254)
+- You can download it here: <https://linuxmint.com/download.php>
 
 #### Write the ISO the USB Flash Drive
 
-- If you need to download an ISO writer you can use [Etcher](https://etcher.io/).
+- If you need to download an ISO writer you can use [Etcher](https://www.balena.io/etcher/).
 
-## Step 2: Install the Razer BIOS Update
+## Step 2: Install the Razer BIOS Update (Might not be necessary)
 
 #### You will need to update the BIOS on the Blade so the trackpad will work in Linux.
 
@@ -101,6 +117,15 @@ You will need:
 - Select the latest NVIDIA driver and then click Apply Changes. Click Restart to complete the driver change.
 
 - You have now successfully installed and updated Linux Mint. The following steps are my personal customization choices.
+
+- I created a script to do most of the following steps manually. I recommend trying it out. You can download and run it with the following commands:
+
+```
+sudo apt install git
+git clone https://github.com/nrobinson2000/linux-blade
+cd linux-blade
+bash auto-install.sh
+```
 
 ## Step 8: Install Chromium
 

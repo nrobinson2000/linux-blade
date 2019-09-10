@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Docky
+Type=Application
+Exec=docky
+Terminal=false
+Icon=docky
+Comment=The finest dock no money can buy.
+NoDisplay=false
+Categories=Utility;
+X-GNOME-Autostart-enabled=true
+Hidden=false
+Name[en_US]=Docky
+Comment[en_US]=The finest dock no money can buy.
+X-GNOME-Autostart-Delay=0
