@@ -298,4 +298,23 @@ Here are some more programs that I use on a regular basis in no particular order
 
 Here is a screenshot of my desktop to help you get a general idea of how my settings look.
 
-<center><img src="images/desktop2.png"><center>
+<center><img src="images/desktop2.png"></center>
+
+## FAQ
+
+*What if I have the brand new Razer Blade released in 2019?*
+
+I originally wrote this tutorial for the Razer Blade 15 (2018). I recently discovered that currently Linux Mint is using an older version of the kernel by default that does not include the Wi-Fi driver for the Razer Blade 15 (2019) Advanced.
+
+However there is an easy fix for this problem. After you have installed Linux Mint on your Razer Blade 15 (2019) Advanced you can choose to upgrade to a later kernel. I would suggest installing with an Ethernet connection present by using an Ethernet to USB adapter.
+
+According to the [Intel Wireless Adapters documentation](https://www.intel.com/content/www/us/en/support/articles/000005511/network-and-i-o/wireless-networking.html), the driver for the Intel® Wi-Fi 6 AX200 used in the Razer Blade 15 (2019) Advanced is included in the kernel since the 5.1 release.
+
+To upgrade to a later kernel I would suggest using the Ukuu application. You can install it with the following commands:
+
+```
+sudo add-apt-repository ppa:teejee2008/ppa
+sudo apt-get update && sudo apt-get install ukuu
+```
+
+After installing, launch Ukuu. Select a recent kernel version and click the install button. After the installation process, reboot your Razer Blade 15 (2019) Advanced. Upon logging in you should observe that the Wi-Fi interface is available. Feel free to connect to your preferred Wi-Fi network or configure eduroam by following Step 5.
