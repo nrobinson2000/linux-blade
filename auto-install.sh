@@ -21,7 +21,6 @@ sudo apt-get -y install git libinput-tools libxdo-dev g++
 git clone https://github.com/Hikari9/comfortable-swipe.git --depth 1
 echo "$(cd comfortable-swipe && bash install)"
 sudo gpasswd -a "$USER" $(ls -l /dev/input/event* | awk '{print $4}' | head --line=1)
-comfortable-swipe autostart
 
 # Install conkyrc
 cp config/conkyrc ~/.conkyrc
