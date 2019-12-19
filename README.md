@@ -310,11 +310,8 @@ However there is an easy fix for this problem. After you have installed Linux Mi
 
 According to the [Intel Wireless Adapters documentation](https://www.intel.com/content/www/us/en/support/articles/000005511/network-and-i-o/wireless-networking.html), the driver for the Intel® Wi-Fi 6 AX200 used in the Razer Blade 15 (2019) Advanced is included in the kernel since the 5.1 release.
 
-To upgrade to a later kernel I would suggest using the Ukuu application. You can install it with the following commands:
+To upgrade to a later kernel you can use the Kernels menu in **Update Manager** by selecting `View > Linux Kernels`.
 
-```
-sudo add-apt-repository ppa:teejee2008/ppa
-sudo apt-get update && sudo apt-get install ukuu
-```
+![](images/kernels.png)
 
-After installing, launch Ukuu. Select a recent kernel version and click the install button. After the installation process, reboot your Razer Blade 15 (2019) Advanced. Upon logging in you should observe that the Wi-Fi interface is available. Feel free to connect to your preferred Wi-Fi network or configure eduroam by following Step 5.
+After installing your kernel of choice, reboot your computer. The Wi-Fi interface should be detected.
