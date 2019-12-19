@@ -312,6 +312,6 @@ According to the [Intel Wireless Adapters documentation](https://www.intel.com/c
 
 To upgrade to a later kernel you can use the Kernels menu in **Update Manager** by selecting `View > Linux Kernels`.
 
-![](images/kernels.png)
+<center><img src="images/kernels.png"></center>
 
 After installing your kernel of choice, reboot your computer. The Wi-Fi interface should be detected.
