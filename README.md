@@ -301,16 +301,23 @@ I hope this tutorial has helped you successfully install Linux Mint on your Raze
 
 Here are some more programs that I use on a regular basis in no particular order:
 
-- [Particle Workbench](https://www.particle.io/workbench/)
-- [Mailspring](https://getmailspring.com/)
-- [Slack](https://slack.com/)
-- [Discord](https://discordapp.com/)
-- [GitKraken](https://www.gitkraken.com/)
+- [Particle Workbench](https://www.particle.io/workbench#installation)
+- [Mailspring](https://getmailspring.com/download)
+- [Slack](https://slack.com/downloads/linux)
+- [Discord](https://discordapp.com/download)
+- [GitKraken](https://www.gitkraken.com/download)
 - [Saleae Logic](https://www.saleae.com/downloads/)
-- [Digilent Waveforms](https://store.digilentinc.com/waveforms-previously-waveforms-2015/)
+- [Digilent Waveforms](https://reference.digilentinc.com/reference/software/waveforms/waveforms-3/start)
 - [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/)
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-- [Fritzing](https://fritzing.org/download/)
+
+> Fritzing has recently put up a paywall on it's website. You can get it for free if you [download from GitHub.](https://github.com/fritzing/fritzing-app/releases/latest)
+
+I found that I needed to install the [following dependencies](https://github.com/fritzing/fritzing-app/issues/3575#issuecomment-564487977) to get Fritzing to work.
+
+```
+sudo apt install libqt5printsupport5 libqt5xml5 libqt5sql5 libqt5serialport5 libqt5sql5-sqlite
+```
 
 ## Screenshot
 
