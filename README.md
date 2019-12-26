@@ -2,7 +2,7 @@
 
 <center><img src="images/header.png"></center>
 
->The Razer Blade 15 is the newest laptop made by Razer. This post will outline the steps I took to install and configure Linux Mint on my Razer Blade 15.
+>The Razer Blade 15 is the newest laptop from Razer. This post will outline the steps I took to install and configure Linux Mint on my Razer Blade 15.
 
 ## TL;DR
 
@@ -13,6 +13,12 @@ sudo apt install git
 git clone https://github.com/nrobinson2000/linux-blade
 cd linux-blade
 bash auto-install.sh
+```
+
+Or if you'd like a one-liner:
+
+```
+bash <(curl -sL https://raw.githubusercontent.com/nrobinson2000/linux-blade/master/install)
 ```
 
 ## Introduction
@@ -274,6 +280,18 @@ sudo adduser $USER wireshark
 ```
 
 - You will need to logout and log back in for Wireshark to work properly.
+
+## Step 15: Install Piper
+
+- [Piper](https://github.com/libratbag/piper) is an application designed for configuring Logitech gaming mice in Linux. I started using Piper because I got a [Logitech G502 SE HERO](https://www.amazon.com/Logitech-G-910-005728-G502-Hero/dp/B07PHLBBQR) mouse for Christmas. The application is much more intuitive than the Logitech G HUB software for macOS and Windows.
+
+```
+sudo add-apt-repository ppa:libratbag-piper/piper-libratbag-git
+sudo apt update
+sudo apt install piper
+```
+
+<center><img src="images/piper.png"></center>
 
 ## Conclusion
 

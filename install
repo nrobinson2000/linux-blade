@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+sudo apt install git
+git clone https://github.com/nrobinson2000/linux-blade
+cd linux-blade
+bash auto-install.sh

@@ -5,13 +5,15 @@ sudo add-apt-repository ppa:openrazer/stable
 sudo add-apt-repository ppa:polychromatic/stable
 sudo add-apt-repository ppa:numix/ppa
 sudo add-apt-repository ppa:tista/adapta
+sudo add-apt-repository ppa:libratbag-piper/piper-libratbag-git
 
 # Update package list
 sudo apt update
 
 # Install everything
 sudo apt install -y chromium-browser openrazer-meta polychromatic \
-numix-icon-theme-circle adapta-gtk-theme docky conky wireshark*
+numix-icon-theme-circle adapta-gtk-theme docky conky wireshark* \
+piper
 
 # Allow non-superuser to capture packets
 sudo adduser "$USER" wireshark
