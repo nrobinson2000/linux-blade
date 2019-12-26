@@ -310,6 +310,7 @@ Here are some more programs that I use on a regular basis in no particular order
 - [Digilent Waveforms](https://reference.digilentinc.com/reference/software/waveforms/waveforms-3/start)
 - [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/)
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+- [Fritzing](https://fritzing.org/download/)
 
 > Fritzing has recently put up a paywall on it's website. You can get it for free if you [download from GitHub.](https://github.com/fritzing/fritzing-app/releases/latest)
 
