@@ -293,6 +293,8 @@ sudo apt install piper
 
 <center><img src="images/piper.png"></center>
 
+I've found that using the green color of `#47E10C` with the solid LED animation looks good.
+
 ## Conclusion
 
 I hope this tutorial has helped you successfully install Linux Mint on your Razer Blade, making it arguably much more productive and pleasant than using Windows. Feel free to customize further if you find it necessary. If you have any questions or concerns please feel free to email me: nrobinson2000@me.com
