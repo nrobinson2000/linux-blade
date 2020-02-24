@@ -343,3 +343,7 @@ To upgrade to a later kernel you can use the Kernels menu in **Update Manager** 
 <center><img src="images/kernels.png"></center>
 
 After installing your kernel of choice, reboot your computer. The Wi-Fi interface should be detected.
+
+There is also a current [bug](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1850238) on the 5.3.* kernel which affects wake up from suspend. 
+
+To mitigate this bug, create a `/etc/modprobe.d/blacklist-nvidia-usb.conf` with a `blacklist ucsi_ccg` content and reboot your computer.
